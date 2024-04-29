@@ -1,321 +1,801 @@
- 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Web Creations</title>
-  <a id="home"></a>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-  
-  <nav class="navbar navbar-inverse navbar-fixed-top ">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">WEBCreations</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li><a href="#home" style="color:azure;">Home</a></li>
-        <li><a href="#about me" style="color:azure;">About Me</a></li>
-        <li><a href="#portfolio" style="color:azure;">Portfolio</a></li>
-        <li><a href="#contact" style="color:azure;">Contact Me</a></li>
-      </ul>
-      <p id="demo" style="color: azure;margin-top:15px;"></p>
-
-<script>
-const d = new Date();
-document.getElementById("demo").innerHTML = d;
-</script>
+<html>
+    <head>
+        <link rel="stylesheet" href="mobile.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <header class="header">
+        <a href="#"class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact Me</a> 
+        </nav>
+    </header>
+    <section class="Home"id="home">
+        <div class="home-content">
+            <h3>hi,Myself</h3>
+            <h1>Junaid Amin</h1>
+            <h3>I,m a <span>web developer</span></h3>
+            <p>"Junaid Amin Bhat: Crafting digital experiences as a skilled web developer."</p>
+            
+            <div class=" social-media"id="social-media">
+            <a href="social-media"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="social-media"><i class="fa-brands fa-instagram"></i></a>
+            <a href="social-media"><i class="fa-brands fa-snapchat"></i></a>
+            </div>
+            </div>
+            <div class="btn-box">
+            <div class="btn-1">Hire Me</div>
+            <div class="btn-2">Exprience</div>
+            <div class="img-box"id="">
+                <img src="fb.jpg">
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="about"id="about">
+        <div class="about img">
+            <img src="whatsapp.jpeg"style="height:70%;width:48%;border-radius :16px;border:6px solid var(--main-color);">
+            <div class="about-content">
+                <h2 class="class heading">About<span>Me</span></h2>
+                <h3>web developer</h3>
+                <p>Meet Junaid, a seasoned professional in the realms of web development and Android application development, hailing from the picturesque town of Anantnag, nestled in the serene landscapes of Bijbehara. With a robust expertise honed over years of dedicated work, Junaid has emerged as a go-to name in the tech scene of his locale.
+                    Despite starting his journey with an academic background in arts, Junaid's passion for technology led him to pursue O Level certification, where he laid the foundation for his technical prowess. Building upon this academic cornerstone, Junaid delved into the world of web development and Android app creation, demonstrating an innate knack for crafting seamless digital experiences.
+                    As Junaid continues to push the boundaries of what's possible in web and mobile development, his journey serves as an inspiration to budding technologists everywhere, proving that with passion, persistence, and a penchant for learning, anything is achievable in the ever-evolving landscape of technology.</p>
+    </section>
+    <section class="services"id="services">
+        <h2 class="services">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class=" services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web development</h3>
+                <p>Junaid's expertise in web development is unparalleled, weaving intricate code into stunning
+                     online experiences that elevate brands and engage audiences effortlessly.</p>
+                <a href="#"class="btn">read more</a>
+            </div>
+            <div class=" services-box">
+                <i class="fa-brands fa-android"></i></i>
+                <h3>Android development</h3>
+                <p>Junaid excels in Android development, crafting innovative mobile experiences that
+                     captivate users and push the boundaries of digital innovation.</p>
+                <a href="#"class="btn">read more</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python development</h3>
+                <p>Junaid's mastery in Python development empowers him to create efficient and scalable solutions, leveraging
+                     the language's versatility to tackle complex problems with elegance and precision.</p>
+                <a href="#"class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+<!--SKILL section-->
+<section class="skills"id="skills">
+    <h2 class="heading">My<span>Skills</span></h2>
+    <div class="skills-rows">
+        <div class="skills-column">
+        <h3 class="title">Coding Skills</h3>
+        <div class="skills-box">
+            <div class="skills-content">
+                <div class="progress">
+                    <h3>HTML<span>60%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>CSS<span>60%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>JavaScript<span>40%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>Python<span>45%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+            </div>
+    </div>
 </div>
-      
-    </div>
-</nav><div class="bg"></div>
-  </div>
-  <style>
-    .demo{
-color: white;
-    }
-    li a {
-  display: block;
-  text-align: center;
-  padding: 14px 14px;
-  text-decoration: none;
-  margin-left: 39px;
-  position:absolute;
-}
-.active {
-  background-color: #04AA6D;
-}
-
-  </style>
- </a>
-
-
-
-  <div class="container">  
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
-      </ol>
-
-
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="C:/Users/HP/Desktop/webcrations/photo/67.png" alt="" style="width:100%;">
+<div class="skills-column">
+    <h3 class="title">professional Skills</h3>
+    <div class="skills-box">
+        <div class="skills-content">
+            <div class="progress">
+                <h3>Web Design<span>60%</span></h3>
+                <div class="bar"><span></span>
+                </div>
+            </div>
+            <div class="progress">
+                <h3>Web development<span>50%</span></h3>
+                <div class="bar"><span></span>
+                </div>
+            </div>
+            <div class="progress">
+                <h3>Database Design<span>30%</span></h3>
+                <div class="bar"><span></span>
+                </div>
+            </div>
+            <div class="progress">
+                <h3>App Development<span>35%</span></h3>
+                <div class="bar"><span></span>
+                </div>
+</div>
+</section>
+<!-- CLOSE /SKILL section-->
+    <section class="contact"id="contact">
+        <h2 class="heading">Contact<span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text"placeholder="Full Name"required>
+                <input type="text"placeholder="Email"required>
+                </div>
+            <div class="input-box">
+            <input type="num"placeholder="Mobile Number"required>
+            <input type="text"placeholder="Email Subject"required>
         </div>
-
-
-        <div class="item">
-          <img src="C:/Users/HP/Desktop/webcrations/photo/22.png" alt="" style="width:100%;">
-        </div>
-
-        <div class="item">
-          <img src="C:/Users/HP/Desktop/webcrations/photo/4.webp" alt="" style="width:100%;">
-        </div>
-
-        <div class="item">
-          <img src="C:/Users/HP/Desktop/webcrations/photo/infiniteinsights.co.in.webp" alt="" style="width:100%;">
-        </div>
-
-        <div class="item">
-          <img src="C:/Users/HP/Desktop/webcrations/photo/32.webp" alt="" style="width:100%;">
-        </div>
-
-        <div class="item">
-          <img src="C:/Users/HP/Desktop/webcrations/photo/9.webp" alt="" style="width:100%;">
-        </div>
-
-        <div class="item">
-          <img src="C:/Users/HP/Desktop/webcrations/photo/1.webp" style="width:100%;">
-        </div>
-
-
-        <div class="item">
-          <img src="C:/Users/HP/Desktop/webcrations/photo/xi.webp" alt="" style="width:100%;">
-        </div>
-        
-
-
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-"></span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
-  <style>
+                <textarea name=""id=""cols="20"rows="3"placeholder="Your Message"required></textarea>
+                <input type="submit"value="send Message" class="btn">
     
-    body
-    {
-      
-      background-color: #474e5d;
-    }
-    .carousel-inner{
-      margin-top:102px;
-      width: 100%;
-      height: 500px;
-    }
-    
-  </style>
-<hr>
-  <a id="portfolio">
-    <div class="about-section">
-      <h1>Portfolio</h1>
-      <h2>Junaid Amin Bhat - Web Developer</h2>
-<h3>About Me</h3>
-      <p>Hello! I'm Junaid Amin Bhat, a passionate web developer from Anantnag, 
-        currently pursuing a three-year diploma in computer engineering.
-         With a strong foundation in computer applications and 
-        a keen interest in coding and cricket,
-         I bring a unique blend of analytical thinking and creativity to the world of web development.</p>
-         <h3>Skills</h3>
-         <h4 style="color:black;">.Programming Languages:<p style="color:aliceblue;">HTML, CSS, JavaScript,Bootstrap</p></h4><br>
-         <h4 style="color:black;">.Web Technologies:<p style="color:aliceblue;">React, Node.js</p></h4><br>
-         <h4 style="color:black;">.Database:<p style="color:aliceblue;">MongoDB</p></h4><br>
-         <h4 style="color:black;">.Version Control:<p style="color:aliceblue;">Git</p></h4><br>
-         <h4 style="color:black;">.Other Tools:<p style="color:aliceblue;">VS Code,Github</p></h4><br>
-         <h1>Projects</h1><br>
-         <p>Project 1: E-commerce Website</p><br>
-         <p>.Developed a responsive e-commerce website using React for the frontend and Node.js for the backend.</p>
-         <p>.Integrated payment gateways and implemented user authentication for a seamless shopping experience.</p>
-         <p>.Technologies Used: Html,Css,Javascript,Bootstrap,Nodejs,Mongodb</p><br>
-         <a href="https://sites.google.com/view/infinite-insights">project</a>
-         <br>
-         <br>
-         
-         <br>
-         <p>Project 2: Portfolio Website</p>
-         <p>.Designed and developed a personal portfolio website to showcase skills, projects, and achievements.</p>
-         <p>.Implemented a clean and modern design with smooth navigation for an enhanced user experience.</p>
-         <p>.Technologies Used: HTML, CSS, JavaScript</p><br>
-         <a href="file:///C:/Users/HP/Desktop/webcrations/index.html#home">project</a>
-         <br>
-         <br>
-         <p style="font-size:200%;color: black;">Education</p><br>
-         <p><b><u style="color:black;">Current:</b></u> Three-year Diploma in Computer Engineering<strong> Govt polytechnic college Anantnag.</strong></p>
-         <p><b><u style="color:black;">Previous:</b></u> One-year Diploma in Computer Applications,<u><strong>Infotech ACL bijbehara anantnag</strong></u> and one</p><p>
-          year 'O' level in <strong><u>Mastermind institute of computer learning bijbehara anantnag</u></strong>.year 22020-2022</p>
-         <br>
-         <br>
-         
-         <p style="font-size:200%;color: rgb(245, 240, 240);"><u>Contact Me:</u></p>
-         <h3>Email:</h3><p>junaidamin0031@gmail.com</p>
-         <h3>Instagram:</h3><p>Butt_junaid123</p>
-         <h3>GitHub:</h3><p>junnijunaid</p>
-    </div>
-  </a>
-  <style>
-    *{
-      padding: 0;
-      margin: 0;
-    }
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      width: 100%;
-    }
-    
-    input{
-      color: blue;
-    }
-    .about-section {
-      padding: 50px;
-      text-align: center;
-      background-color:#474e5d;
-      color: azure;
-      width: 72%;
-      margin-left: 14%;
-    }
-    p{
-      font-size: medium;
-      text-align:left;
-    }
-    h2{
-      text-align: left;
-    }
-    
-    h3{
-      text-decoration:underline;
-    }
-    h1{
-        color:azure;
-        text-decoration: none;
-    }
-    </style>
-  <br>
-  <hr>
-
-  <a id="about me">
-    <div class="about-section">
-      <h1>About Me</h1>
-      <p>Hello! I'm Junaid Amin Bhat, hailing from the picturesque town of Anantnag in Bijbehara.</p>
-      <p>With a passion for coding and a love for the precision of cricket, I find myself at the intersection of technology and sports. My journey into the digital realm started with the completion of my O Level computer diploma, followed by a one-year diploma in computer applications, where I delved deeper into the fascinating world of computers.
-
-        Currently enrolled in a three-year diploma in computer engineering in Anantnag, I am not just learning about the intricacies of computer systems but also honing the skills to bring innovative ideas to life. My interest in coding goes beyond the classroom, and I thrive on turning concepts into code, creating digital solutions that bridge the gap between theory and practice.
-        
-        When I'm not immersed in lines of code, you'll likely find me on the cricket field, where the precision and strategy of the game resonate with my approach to problem-solving in the tech world. It's this balance between the logical intricacies of coding and the dynamic nature of cricket that keeps me energized and inspired.
-        
-        Beyond the binary and boundaries,video games rounding out my experiences and infusing creativity into my work. As I navigate through the realms of computer engineering, I look forward to embracing new challenges, expanding my coding prowess, and making a positive impact in both the tech and cricketing arenas. Let's connect and explore the endless possibilities together!
-        
-        </p>
-    </div>
-  </a>
-<br>
-
-  <hr>
-  
-    <div class="contact-section">
-        <a id="contact">
-        <h3>Contact Me:</h3><br>
-    <h5>Facebook:</h5><a href="https://www.facebook.com/junaidbutt.junaidbutt.906">butt junaid</a></p><br>
-    <h5>Instageam:</h5><a href="https://www.instagram.com/">@butt_junaid123</a></p>
-    <h5>Gmail:</h5><a href="https://www.gmail.com/">junaidamin0031@gmail.com</a></p>
-    </div>
-    </a>
-    <br>
-    <footer>
-      <p>Created by : <u>junaid amin</u></p>
+        </form>
+    </section>
+    <footer class="class">
+        <div class="footer-text">
+            <p>Copy right &copy;by @junaid Amin Bhat</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
     </footer>
-  <style>
-    footer {
-  display:flex;
-  justify-content: center;
-  padding: 8px;
-  background-color: #66686b;
-  color: #fff;
-  text-align: center;
-}
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            scroll-behavior: smooth;
+            font-family: nunito , sans-serif;
+        }
+        :root{
+        --bg-color:rgb(11, 11, 51);
+        --snd-bg-color:rgb(40, 40, 65);
+        --text-color:#fff;
+        --main-color : #5982f4;
+        }
+        html{
+            font-size: 62.5%;
+            overflow: hidden;
+        }
+        body{
+            background: var(--bg-color);
+            color:var(--text-color);
+        }
+        section{
+            --main-height:90vh;
+            padding: 10rem 9% 2rem;
+        }
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding:2rem 9% ;
+            background: var(--bg-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+        .logo{
+            font-size: 2.5rem;
+            color: var(--text-color);
+            font-weight: 700;
+            cursor: default;
+        }
+        .navbar a{
+            font-size: 1.5rem;
+            color: var(--text-color);
+            margin-left: 4rem;
+            font-weight: 700;
+        }
+        .navbar a:hover,
+        .navbar a:active{
+            color: var(--text-color);
+        }
+        #menu-icon{
+            font-size: 7.6rem;
+            color: var(--text-color);
+            display:none;
+        }
+        .home{
+            
+           display: flex;
+           align-items: center;
+           gap: 7rem;
+           padding: 30px 12% 0; 
+        }
+        .home-content{
+            max-width: 800px;
+            min-height:55em;
+        }
+        .home-content h3{
+            font-size: 42px;
+        }
+        span{
+            color: var(--main-color);
+        }
+        .home-content h1{
+            font-size: 52px;
+            line-height: 1.2;
 
-    h3{
-        color: azure;
-    }
-    h5{
-        color: azure;
-    }
-    p{
-        color:azure;
-    }
+        }
+        .home-content p{
+            font-size: 15px;
+            margin: 25px 0 30px;
+            font-weight: 700;
+        }
+        .img-box img{
+            width: 13vw;
+            border-radius:25px ;
+            margin-top:-90em;
+            height: -45em;
+            width: 45em;
+            margin-left:-29em;
+            
+        }
+        .btn-box{
+            width:36px;
+            display:flex;
+            gap: 32rem;
+            margin-left:em;
+            margin-bottom: 23px; 
+        
+        }
+        .btn-1{
+            padding:15px 47px;
+            background-color: black;
+            border: .1px solid transparent;
+            border-radius:8px;
+            font-size:14px;
+            letter-spacing:.1rem;
+            font-weight: 600;
+            transition: 0.3s ease;
+            cursor: pointer;
+            height: 60px;
+            width:30em;
+           
     
- a{
-        color: rgb(235, 239, 239);
-        background-attachment: fixed;
+        }
+        .btn-2{
+            padding:15px 28px;
+            background-color: orangered;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            font-size:14px;
+            height: 60px;
+            font-weight:600;
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+        .btn-1:hover{
+            background: var(--main-color);
+            color: var(--snd-bg-color);
+            box-shadow: 0 0 2rem var(--main-color);
+        }
+        .btn-2:hover{
+            background: var(--main-color);
+            color: var(--snd-bg-color);
+            box-shadow: 0 0 2rem var(--main-color);
+        }
 
-    }
-    .about-section {
-      padding: 50px;
-      text-align: center;
-      background-color:#474e5d ;
-      color: white;
-      width: 72%;
-      margin-left: 14%;
-    }
-    p{
-      font-size: medium;
-      text-align:center;
-    }
+        .home-content p{
+            font-size: 1.6rem;
+        }
+        .social-media a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width:4rem;
+            height: 4rem;
+            background: transparent;
+            border: .2rem solid var(--main-color);
+            border-radius: 50%;
+            font-size: 2rem;
+            color: var(--main-color);
+            margin: 3rem 1.5rem 3rem 0;
+            transition: 5s ease;
+        }
+        .social-media a :hover{
+            background: var(--main-color);
+            color: var(--snd-bg-color);
+            box-shadow: 0 0 2rem var(--main-color);
+        }
+        .about{
+         height:auto;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            gap:2rem;
+            background: var(--snd-bg-color);
+            
+        }
+        .about-img img{
+            width:19vh;
+        }
+        .about-content p{
+            font-size: 1.3rem;
+        }
+        .heading{
+            text-align: center;
+            font-size: 4.5rem;
+        }
+        .home-content h2{
+            text-align: left;
+            line-height: 1.2;
+        }
+        .home-content h3{
+            font-size: 2.6rem;
+        }
+        .home-content p {
+            font-size: 5.6rem;
+            margin: 2rem 0 3rem;
+        }
+        .services h2 {
+            margin-bottom: 7rem;
+            font-size: 5rem;
+            text-align: center;
+        }
+        .services-container {
+            padding-bottom: 12rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap:2rem ;
+        }
+        .services-container .services-box {
+            flex: 1 1 30rem;
+            background:var(--snd-bg-color) ;
+            padding: 3rem 2rem 4rem;
+            border-radius: 2rem;
+            text-align: center;
+            border: .2rem solid var(--bg-color);
+            transition: .5s ease;
+        }
+        .services-box{
+            font-size: 7rem;
+            color: var(--main-color);
+        }
+        .services-container .services-box:hover {
+            border-color: var(--main-color);
+            transform: scale(1.02);
+        }
+        .services-box h3 {
+            font-size: 2.6rem;
+        }
+        .services-box .btn{
+            padding: 1rem;
+            border-radius: 2rem;
+            font-size: 1.3rem;
+            background: var(--main-color);
+        }
+        .services-box  a:hover{
+            background: var(--main-color);
+            color: var(--snd-bg-color);
+            box-shadow: 0 0 2rem var(--main-color);
+        }
+        .services-box p {
+            font-size: 1.6rem;
+            margin: 1rem 0 3rem;
+        }
+        .services i{
+            font-size: 7rem;
+            color: var(--main-color);
+        }
+        .contact h2{
+            margin-bottom:4rem;
+        }
+        .contact form{
+            max-width: 70rem;
+            margin: 4rem auto;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .contact form .input-box{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .contact form .input-box input,
+        .contact form textarea{
+            width: 100%;
+            padding: 2.3rem;
+            font-size: 1.4rem;
+            color: var(--text-color);
+            background: var(--snd-bg-color);
+            border-radius: .7rem;
+            margin: 3rem 0;
+        }
+        .contact form .input-box input{
+            width: 49%;
+        }
+        .contact form textarea{
+            resize: none;
+        }
+        .contact form .btn{
+            margin-top:2rem;
+            cursor: pointer;
+            padding: 1rem;
+            border-radius: 2rem;
+            font-size: 1.3rem;
+            background: var(--main-color);
+        }
+        .contact form .btn:hover{
+            background: var(--main-color);
+            color: var(--snd-bg-color);
+            box-shadow: 0 0 2rem var(--main-color);
+        }
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 2rem 6%;
+            background: var(--snd-bg-color);
+        }
+        .footer-text{
+            font-size: 1.3rem;
+        }
+        .footer-iconTop{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 1rem;
+            background: var(--main-color);
+            border-radius: .6rem;
+            transition: 5s ease;
+        }
+        .footer-iconTop a:hover{
+            box-shadow: 0 0 1rem var(--main-color);
+        }
+        .footer-iconTop a i{
+            font-size: 2.4rem;
+            color: var(--snd-bg-color);
+        }
+        .skills{
+            height:auto;
+            padding-bottom: 7.6rem;
+            background: var(--snd-bg-color);
+        }
+        .skills .skills-rows{
+            display: flex;
+            flex-wrap: wrap;
+            gap:5rem;
+        }
+        .skills-rows .skills-column{
+            flex:1 1 40rem;
+        }
+        .skills-column .title{
+            font-size: 2.5rem;
+            margin: 0 0 1.5rem;
+        }
+        .skills-box .skills-content{
+            position: relative;
+            border: 1.5rem solid var(--main-color);
+            border-radius: 5rem;
+            padding: 5rem 1.5rem;
+        }
+        .skills-content .progress{
+            padding: 1rem 0;
+        }
+        .skills-content .progress h3{
+            font-size: 1.7rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        .skills-content .progress h3 span{
+            color: var(--main-color);
+        }
+        .skills-content .progress .bar{
+            height: 2.5rem;
+            border-radius: 6rem;
+            border: .2rem solid var(--main-color);
+            padding: .5rem;
+            margin: 1rem 0;
+        }
+        .skills-content .bar span{
+            display: block;
+            height: 100%;
+            background: var(--main-color);
+            border-radius: 3rem;
+        }
+        .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
+            width:60%;
+        }
+        .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
+            width:60%;
+        }
+        .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
+            width:40%;
+        }
+        .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
+            width:45%;
+        }
+        .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
+            width:60%;
+        }
+        .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
+            width:50%;
+        }
+        .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
+            width:30%;
+        }
+        .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
+            width:35%;
+        }
+
+        @media only screen and (max-width: 780px) {
+    .skills {
+        width: 110em;
+        height:auto;
+            padding-bottom: 18rem;
+            background: var(--snd-bg-color);
+    } 
+    .skills .skills-rows{
+            display:flex;
+            flex-wrap: wrap;
+            gap:2rem;
+        }
+        .skills-rows .skills-column{
+            flex:1 1 40rem;
+        }
+        .skills-column .title{
+            font-size: 3.4rem;
+            margin: 0 0 5rem;
+         
+        }
+        .skills-box .skills-content{
+            position: relative;
+            border: 3.5rem solid var(--main-color);
+            border-radius: 5rem;
+            padding: 3rem 3.3rem;
+        }
+        .skills-content .progress{
+            padding: 2rem 2rem;
+        }
+        .skills-content .progress h3{
+            font-size: 5rem;
+            display: flex;
+            justify-content: space-between;
+        }
+/*services-section*/
+        .services h2 {
+            margin-bottom:4rem;
+            font-size: 6rem;
+            text-align: center;
+        }
+        .services-container {
+            padding-bottom:1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap:3rem ;
+        }
+        .services-container .services-box {
+            flex:1 1 80rem;
+            background:var(--snd-bg-color) ;
+            padding: 3rem 3rem 4rem;
+            border-radius: 2rem;
+            text-align: center;
+            border: .5rem solid var(--bg-color);
+            transition: .5s ease;
+        }
+        .services-box{
+            
+            font-size: 12rem;
+            color: var(--main-color);
+        }
+        .services-box h3 {
+            font-size: 3.4rem;
+        }
+        .services-box p {
+            font-size: 3rem;
+            margin: 1rem 0 2rem;
+        }
+        .services-box .btn{
+            padding: 1rem;
+            border-radius: 2rem;
+            font-size: 3.3rem;
+            background: var(--main-color);
+        }
+        .services{
+            width:110rem
+        }
+        /*about section*/
+        .about{
+         height:170rem;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            width: 110rem;
+            gap:3rem;
+            background: var(--snd-bg-color);
+            
+        }
+        .about-content p{
+            font-size: 3.2rem;
+        }
+        .about-img img{
+            width:19px;
+        }
+        .about-content h3{
+            font-size: 3.5rem;
+        }
+        .about-content h2{
+            font-size: 6.3rem;
+        }/*contact-section*/
+        .contact h2{
+            margin-bottom:5rem;
+            text-align: center;
+        }
+        .contact form{
+            width: 110rem;
+            margin: 8rem 15rem ;
+            text-align: center;
+            margin-bottom:4rem;
+            
+        }
+        .contact form .input-box input,
+        .contact form textarea{
+            width: 100%;
+            padding: 4rem 0;
+            font-size: 4.4rem;
+            color: var(--text-color);
+            background: var(--snd-bg-color);
+            border-radius: 2rem;
+            margin: 2rem 0;
+        }
+        
+        
+        .contact form textarea{
+            resize:none;
+        }
+        .contact form .btn{
+            margin-top:1rem;
+            cursor: pointer;
+            padding: 2rem;
+            border-radius: 2rem;
+            font-size: 4.3rem;
+            background: var(--main-color);
+        }
+        .contact h2{
+            font-size: 5.3rem;
+            text-align:center;
+        }
+        .heading h2 {
+            text-align: center;
+        }
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding:2rem 9% ;
+            background: var(--bg-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+        .logo{
+            font-size: 3.5rem;
+            color: var(--text-color);
+            font-weight: 600;
+            cursor: default;
+        }
+        .navbar a{
+            font-size: 2.5rem;
+            color: var(--text-color);
+            margin-left: 3rem;
+            font-weight: 600;
+        }
+        .home{
+            
+            display: flex;
+            align-items: center;
+            gap: 7rem;
+            padding: 30px 12% 0; 
+         }
+         .home-content{
+             max-width: 800px;
+             min-height:55em;
+         }
+         .home-content h3{
+             font-size: 62px;
+         }
+         span{
+             color: var(--main-color);
+         }
+         .home-content h1{
+             font-size: 74px;
+             line-height: 1.2;
+ 
+         }
+         .home-content p{
+             font-size: 40px;
+             margin: 25px 0 30px;
+             font-weight: 700;
+         }
+         .img-box img{
+            width: 13vw;
+            border-radius:25px ;
+            margin-top:-99em;
+            height: -45em;
+            width: 45em;
+            margin-left: -9em;
+            
+            
+        }
+        .social-media a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width:6rem;
+            height: 6rem;
+            background: transparent;
+            border: .2rem solid var(--main-color);
+            border-radius: 50%;
+            font-size: 4rem;
+            color: var(--main-color);
+            margin: 4rem 3.5rem 5rem 0;
+            transition: 5s ease;
+        }
+        .btn-box{
+            width:36px;
+            display:flex;
+            gap: 20rem;
+            margin-left:0;
+            margin-bottom: 23px; 
+        
+        
+        }
+        .btn-1{
+            padding:15px 47px;
+            background-color: black;
+            border: .1px solid transparent;
+            border-radius:8px;
+            font-size:24px;
+            letter-spacing:.1rem;
+            font-weight: 600;
+            transition: 0.3s ease;
+            cursor: pointer;
+            height: 100px;
+            width:25em;
+            
+           
+    
+        }
+        .btn-2{
+            padding:27px 28px;
+            background-color: orangered;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            font-size:24px;
+            height: 100px;
+            font-weight:600;
+            transition: 0.3s ease;
+            cursor: pointer;
+            text-align: center;
+        }
+}
+       
     </style>
-  <style>
-
-    
-  
-
-
-h2{
-  color: azure;
-  margin-left: 25%;
-}
-.contact-section{
-  padding: 50px;
-  text-align:center;
-  background-color: #474e5d;
-  color: azure;
-  width: 72%;
-  margin-left: 14%;
-  height:350px;
-}
-.form-group{
-  width:50%;
-  margin-left:7%;
-  color:azure;
-}
-
-</style>
-
-    
-
-  </body>
-  </html>
-
-  
+</html>
